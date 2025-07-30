@@ -3,9 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chespirito</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    
+    <style>
+        @font-face{
+            font-family: 'chespirito';
+            src: url(fonts/FredokaSummer-vne8E.otf) format('truetype');
+        }
+    
+        body{
+            background-color: #f2a007;
+        }
+        header div h1{
+            font-family: chespirito;
+            font-size: 80pt;
+            text-shadow: 
+            -1px -1px 0 #0d0000, 
+            1px -1px 0 #0d0000, 
+            -1px  1px 0 #0d0000, 
+            1px  3px 0 #0d0000;
+            color: #d90d1e;
+            text-align: center;
+            letter-spacing: 3px;
+            
+        }
+        .menu{
+            font-family: 'chespirito';
+            font-size: 20pt;
+            border-radius: 15px;
+            background-color: rgba(206, 203, 203, 0.466);
+            color: #0d0000;
+            text-align: center;
+
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .menu li{
+            margin: 15px;
+            display:inline-flex;
+            text-align: center;
+    
+        }
+        .menu li > a{
+            text-decoration: none;
+            color: #0d0000;
+
+
+        }
+        .menu li > a:hover{
+            color: #d90d1e;
+            text-shadow: 
+            -1px -1px 0 #0d0000, 
+            1px -1px 0 #0d0000, 
+            -1px  1px 0 #0d0000, 
+            1px  1px 0 #0d0000;
+        }
+        
+        main {
+          display: flex;
+          
+        }
+        .biografia{
+            
+            text-align: center;
+            border-radius: 15px;
+            background-color: rgba(206, 203, 203, 0.466);
+            
+            width: 850px;
+            height: 800px;
+
+            margin-left: 50px;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        .biografia > h1{
+            display: block;
+            text-align:center;
+            
+            font-family: Georgia, serif;
+           
+        }
+        .biografia > h2{
+            text-align: center;
+        }
+        .biografia > p{
+            display: block;
+            text-align:justify;
+            margin-left: 15px;
+            margin-right: 15px;
+            
+            font-size: 12pt;
+            font-family: Georgia, serif;
+        }
+        .museu{
+           border-radius: 15px;
+           background-color: rgba(206, 203, 203, 0.466);
+
+           width: 400px;
+           height: auto;
+           margin-left: 5px;
+           margin-top: 20px;
+           margin-right: 50px;
+        }
+        .museu > h1{
+
+            text-shadow: 
+            -1px -1px 0 #0d0000, 
+            1px -1px 0 #0d0000, 
+            -1px  1px 0 #0d0000, 
+            1px  1px 0 #0d0000;
+            letter-spacing: 2px;
+            color: #d90d1e;
+            font-family: 'chespirito';
+            text-align: center;
+        }
+        .museu img{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+    
+            width: 50%;
+            height: auto;
+        }
+        footer>div{
+
+            font-size: 12pt;
+            font-family: 'chespirito';
+            
+            border-radius: 15px;
+            background-color: rgba(206, 203, 203, 0.466);
+            color: #0d0000;
+            
+            text-align: center;
+            letter-spacing: 1px;
+
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        
+    </style>
+    
 </head>
 <body>
+    <header>
+        <div>
+            <H1>CHESPIRITO</H1>
+        </div>
+        
+        <nav>
+            <ul class="menu">
+                <li><a href="###" target="_blank">HOME</a></li>
+                <li><a href="https://chaves.fandom.com/pt-br/wiki/Categoria:Personagens_do_Programa_Chespirito" target="_blank" >PERSONAGENS</a></li>
+                <li> <a href="https://open.spotify.com/intl-pt/artist/1XPjFfnJm6Zvv06kZZhN4R?si=KzXAt4yARYmlYuz18-T4VQ" target="_blank">MUSICAS</a></li>
+                <li> <a href="https://www.forumchaves.com.br/viewtopic.php?f=47&t=2582&sid=dd1f7ea59d54428ad5e7c49f7bb9c8e9" target="_blank">FOTOS</a></li>
+                <li> <a href="https://youtu.be/9J7AHlipJE4?si=X5QCGweyqNOO6wRx" target="_blank">SERIES</a></li>
+                <li><a href="https://youtu.be/819pYArA-yY?si=Ss_-B_7vFxv4rJhi" target="_blank">DESENHOS ANIMADOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="biografia">
+            <h1><br>Chespirito - Roberto Gómez Bolaños</h1>
+
+            
+            <p>Nasceu no dia 21 de fevereiro de 1929, na Cidade do México, México. Filho de Francisco Gómez Linares (pintor e ilustrador) e Elsa Bolaños Cacho (secretária bilingue). 
+            <p>Estudou engenharia na Universidade Nacional Autônoma do México (UNAM), mas nunca exerceu a profissão.</p>
+            </p>
+
+            <h2>Início na carreira artística</h2>
+            <p>Começou a trabalhar como redator publicitário, escrevendo roteiros para anúncios de rádio e televisão. Sua criatividade e talento para o humor chamaram atenção, o que o levou a escrever para programas de TV e filmes mexicanos nos anos 1950 e 1960. Trabalhou com grandes comediantes da época, como Viruta e Capulina, sendo roteirista de diversos filmes de comédia.
+            </p>
+            
+        </div>
+        <div class="museu">
+           <h1>MUSEU</h1>
+           <img src="imagens/4032750.png" alt="Roberto Gomez Bolaños" title="Roberto Gomez Bolaños">
+
+        </div>
+           
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <div>
+            <h4>Criação em andamento...</h4>
+            
+        </div>
+    </footer>
+
     
 </body>
 </html>
